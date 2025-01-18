@@ -45,6 +45,7 @@ except:
 
 
 """
+ELSE
 
 you can also use the else keyword,if no errors were raised 
 
@@ -55,3 +56,16 @@ except:
     print("something went wrong")
 else:
     print("else has been printed because there is no error")
+
+"""
+FINALLY
+
+The finally block ,if specified it executes if the try block raises an error or not
+
+"""
+try:
+    print(d)
+except:
+    print("An error is encountered")
+finally:
+    print("the try except is finished")
