@@ -43,14 +43,15 @@ except NameError:
 except:
     print("Something else")
 
-"""
-
-Examples
-1.
-
-
-
-
-
 
 """
+
+you can also use the else keyword,if no errors were raised 
+
+"""
+try:
+    print("hello")
+except:
+    print("something went wrong")
+else:
+    print("else has been printed because there is no error")
